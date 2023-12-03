@@ -81,7 +81,6 @@ def get_numbers_and_position(list):
                 current_number = ["",[]]
 
     return numbers
-    
 
 def get_gear_positions(list):
     allGears=[]
@@ -128,9 +127,6 @@ def get_gear_neighbours(pos,list):
     
     neighbours=[left,right,up,down,top_left,top_right,down_left,down_right]
     return neighbours
-
-
-
 
 sum=0
 for number in get_numbers_and_position(lines):
